@@ -12,3 +12,32 @@
 
 
 /* Review Section */
+.reviews {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.border {
+    width: 160px;
+    height: 5px;
+    background: #f2be55;
+    margin: 26px auto;
+}
+
+.review {
+
+    margin: 10px;
+    margin-bottom: 50px;
+    width: 350px;
+    height: 250px;
+    padding: 20px;
+    line-height: 20px;
+    transition: all .2s ease-in-out;
+}
+
+
+.review:hover {
+    transform: scale(1.02);
+}
+
+
