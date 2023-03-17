@@ -106,3 +106,16 @@
 }
 
 
+.reveal {
+    margin-top:-11px;
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 1.9s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 0.9;
+}
+
